@@ -89,6 +89,7 @@ li a:hover {
 #lang {
   text-align: center;
   background: rgba(0, 0, 0, 0.45);
+  height: 350px;
 }
 
 .langs {
