@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   font-family: sans-serif;
   background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dHnxL5V/data-center-servers-endless-corridor-dark-loop-centre_njouse_w__F0000.png');
   height: 100%;
@@ -18,6 +19,10 @@ body {
     top: 0px;
     left: 0px;
     background: rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+  font-size:42px;
 }
 
 ul {
@@ -52,7 +57,6 @@ li a:hover {
   display: grid;
   grid-template: 5% / 10% 10%;
   grid-gap: 80%;
-  background-color: black;
 }
 
 #logo{
@@ -61,19 +65,22 @@ li a:hover {
 }
 
 #first{
-  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template: 225px / 490px 500px;
 }
 
 #me{
-  height: 20%;
-  width: 20%;
+  height: 110%;
+  width: 50%;
   border: 4px solid white;
   border-radius: 50%;
 }
 
 #about {
-  width: 50%;
-  padding-left: 25%;
+  width: 80%;
+  padding-left: 15%;
+  font-size:20px;
 }
 
 #salmon {
@@ -87,9 +94,16 @@ li a:hover {
 }
 
 #lang {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.45);
+  display: grid;
+  grid-template: 350px / 365px 500px;
+  grid-gap: 10%;
   height: 350px;
+  justify-content: center;
+}
+
+#lan {
+  display: grid;
+  grid-template: 150px 150px / 150px 150px;
 }
 
 .langs {
